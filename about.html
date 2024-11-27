@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Layout</title>
+    <style>
+        .header {
+            display: flex;
+            align-items: center;
+            /* Aligns items vertically in the center */
+            justify-content: space-between;
+            /* Distributes space between items */
+            padding: 10px;
+            margin: 0%;
+        
+            background-color: #83add8;
+            border-bottom: 1px solid #950b0b;
+        }
+
+        .header .menu,
+        .header .search {
+            margin-right: 10px;
+            /* Adds space between items */
+           
+        }
+        a{
+
+            justify-content: center;
+         text-decoration: none;
+            color: black;
+            margin-left:100px;
+            
+        }
+
+        .header .search input {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+        </div>
+    </header>
+</body>
+
+</html>
